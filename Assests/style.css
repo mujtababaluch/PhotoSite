@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 590px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.473),rgb(0,0,0,0.5)),url("../Assests/images/headerimg.jpg");
+    background-size: 100%; 
+    background-position: center;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .section1
+{
+ width: 20%;
+
+} */
+.section1 img{
+    padding-left:8px ;
+  width: 100px;
+  height: 60px;
+}
+
+.header nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+} 
+.header nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+.header nav ul li a:hover{
+    color: rgb(255, 255, 11);
+    transition: 0.5s;
+}
+header .maintxt{
+    width :370px;
+    margin-left: 450px;
+    border: 5px solid rgb(255, 51, 0);
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+     color: white;
+     
+}
+
+header .maintxt button{
+     background-color: rgb(41, 39, 39);
+     color: white;
+     border-radius: 30px;
+     border: none;
+     cursor: progress;
+     margin-top: 5px;
+     padding: 20px ;
+     font-size: 18px;
+}
+header .maintxt button:hover{
+    background-color: rgb(41, 39, 39);
+     color: rgb(253, 237, 8);
+     border-radius: 30px;
+     border: none;
+     cursor: pointer;
+     margin-top: 5px;
+     padding: 20px ;
+     font-size: 18px;
+}
+.section2{ 
+    width: 100%;
+    height: 400px ;
+}
+
+.section2 .div1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.section2 .div2{
+    width: 50%;
+    background-color:yellow ;
+}
